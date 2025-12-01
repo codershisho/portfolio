@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
 
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/portfolio/' : '/'
+    baseURL: '/portfolio/',
+    cdnURL: '/portfolio/'
   }
 })
